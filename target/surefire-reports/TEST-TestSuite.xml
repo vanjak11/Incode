@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="250.068" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vanja.kosanovic/Desktop/vanja/Incode/Incode/target/test-classes:/Users/vanja.kosanovic/Desktop/vanja/Incode/Incode/target/classes:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-java/4.30.0/selenium-java-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-api/4.30.0/selenium-api-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.30.0/selenium-chrome-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.30.0/selenium-chromium-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-json/4.30.0/selenium-json-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.30.0/selenium-manager-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.30.0/selenium-devtools-v132-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.30.0/selenium-devtools-v133-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.30.0/selenium-devtools-v134-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.30.0/selenium-edge-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.30.0/selenium-firefox-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-http/4.30.0/selenium-http-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.30.0/selenium-ie-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.30.0/selenium-remote-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/com/google/guava/guava/33.4.5-jre/guava-33.4.5-jre.jar:/Users/vanja.kosanovic/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/vanja.kosanovic/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vanja.kosanovic/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/vanja.kosanovic/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-api/1.48.0/opentelemetry-api-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-context/1.48.0/opentelemetry-context-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.48.0/opentelemetry-exporter-logging-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.48.0/opentelemetry-sdk-common-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.48.0/opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.48.0/opentelemetry-sdk-extension-autoconfigure-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.48.0/opentelemetry-sdk-trace-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.48.0/opentelemetry-sdk-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.48.0/opentelemetry-sdk-metrics-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.48.0/opentelemetry-sdk-logs-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/net/bytebuddy/byte-buddy/1.17.2/byte-buddy-1.17.2.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-os/4.30.0/selenium-os-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.30.0/selenium-safari-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-support/4.30.0/selenium-support-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/testng/testng/7.10.0/testng-7.10.0.jar:/Users/vanja.kosanovic/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/vanja.kosanovic/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/vanja.kosanovic/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/vanja.kosanovic/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vanja.kosanovic/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vanja.kosanovic/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/vanja.kosanovic/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RS"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/vanja.kosanovic/Desktop/vanja/Incode/Incode/target/surefire/surefirebooter10044612652657289579.jar /Users/vanja.kosanovic/Desktop/vanja/Incode/Incode/target/surefire 2025-04-12T20-03-13_002-jvmRun1 surefire16911119669348803666tmp surefire_08207525617930890043tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vanja.kosanovic/Desktop/vanja/Incode/Incode/target/test-classes:/Users/vanja.kosanovic/Desktop/vanja/Incode/Incode/target/classes:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-java/4.30.0/selenium-java-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-api/4.30.0/selenium-api-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.30.0/selenium-chrome-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.30.0/selenium-chromium-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-json/4.30.0/selenium-json-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.30.0/selenium-manager-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.30.0/selenium-devtools-v132-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.30.0/selenium-devtools-v133-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.30.0/selenium-devtools-v134-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.30.0/selenium-edge-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.30.0/selenium-firefox-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-http/4.30.0/selenium-http-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.30.0/selenium-ie-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.30.0/selenium-remote-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/com/google/guava/guava/33.4.5-jre/guava-33.4.5-jre.jar:/Users/vanja.kosanovic/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/vanja.kosanovic/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vanja.kosanovic/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/vanja.kosanovic/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-api/1.48.0/opentelemetry-api-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-context/1.48.0/opentelemetry-context-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.48.0/opentelemetry-exporter-logging-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.48.0/opentelemetry-sdk-common-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.48.0/opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.48.0/opentelemetry-sdk-extension-autoconfigure-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.48.0/opentelemetry-sdk-trace-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.48.0/opentelemetry-sdk-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.48.0/opentelemetry-sdk-metrics-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.48.0/opentelemetry-sdk-logs-1.48.0.jar:/Users/vanja.kosanovic/.m2/repository/net/bytebuddy/byte-buddy/1.17.2/byte-buddy-1.17.2.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-os/4.30.0/selenium-os-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.30.0/selenium-safari-driver-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/seleniumhq/selenium/selenium-support/4.30.0/selenium-support-4.30.0.jar:/Users/vanja.kosanovic/.m2/repository/org/testng/testng/7.10.0/testng-7.10.0.jar:/Users/vanja.kosanovic/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/vanja.kosanovic/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/vanja.kosanovic/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/vanja.kosanovic/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/vanja.kosanovic/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/vanja.kosanovic/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/vanja.kosanovic/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vanja.kosanovic"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vanja.kosanovic/Desktop/vanja/Incode/Incode"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/vanja.kosanovic/Desktop/vanja/Incode/Incode/target/surefire/surefirebooter10044612652657289579.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
+    <property name="user.name" value="vanja.kosanovic"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.6.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/vanja.kosanovic/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/vt/2d85scd94v96bqyxywfb1jfh0000gp/T/"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="/Users/vanja.kosanovic/Desktop/vanja/Incode/Incode"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/vanja.kosanovic/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testIdentities" classname="tests.IdentitiesTest" time="134.906">
+    <failure message="No identities found in the list" type="java.lang.AssertionError">java.lang.AssertionError: No identities found in the list
+	at tests.IdentitiesTest.testIdentities(IdentitiesTest.java:63)
+</failure>
+    <system-out><![CDATA[20:03:14.030 [main] DEBUG utils.LoggerUtils - [TEST] testAddFaceToIdentities()
+20:03:14.033 [main] DEBUG utils.LoggerUtils - setUpChromeDriver()
+20:03:23.449 [main] DEBUG utils.LoggerUtils - [TEST] Login to Incode Dashboard
+20:03:23.464 [main] DEBUG utils.LoggerUtils - open()
+20:03:30.420 [main] DEBUG utils.LoggerUtils - isLoginPageLoaded()
+20:03:37.785 [main] DEBUG utils.LoggerUtils - waitUntilPageIsLoaded()
+20:03:41.544 [main] DEBUG utils.LoggerUtils - [TEST] Navigate to tests.Sessions page and click on session with name Vanja Kosanovic
+20:03:41.544 [main] DEBUG utils.LoggerUtils - clickOnSessions()
+20:03:44.452 [main] DEBUG utils.LoggerUtils - [TEST] Click on the session name and navigate to Session Info page
+20:03:44.453 [main] DEBUG utils.LoggerUtils - clickOnSession(Vanja Kosanovic)
+20:03:47.653 [main] DEBUG utils.LoggerUtils - verifyPageIsLoaded()
+20:04:00.858 [main] DEBUG utils.LoggerUtils - [TEST] Click on button 'Add Face' and verify that identity is added to 'tests.Identities' page
+20:04:00.859 [main] DEBUG utils.LoggerUtils - clickAddFaceToDatabaseButton()
+20:04:02.226 [main] DEBUG utils.LoggerUtils - clickOnIdentities()
+20:04:03.351 [main] DEBUG utils.LoggerUtils - waitForToastMessageToBeInvisable()
+20:04:04.105 [main] DEBUG utils.LoggerUtils - [TEST] Verify that identity is added to 'Identities' page
+20:04:04.105 [main] DEBUG utils.LoggerUtils - verifyIdentityPageIsLoaded()
+20:04:05.017 [main] DEBUG utils.LoggerUtils - getResultCount()
+20:04:15.073 [main] DEBUG utils.LoggerUtils - quitDriver()
+20:04:15.290 [main] DEBUG utils.LoggerUtils - setUpChromeDriver()
+20:04:20.931 [main] DEBUG utils.LoggerUtils - [TEST] Login to Incode Dashboard and navigate to Identities page
+20:04:20.931 [main] DEBUG utils.LoggerUtils - open()
+20:04:26.350 [main] DEBUG utils.LoggerUtils - isLoginPageLoaded()
+20:04:33.004 [main] DEBUG utils.LoggerUtils - waitUntilPageIsLoaded()
+20:04:36.903 [main] DEBUG utils.LoggerUtils - clickOnIdentities()
+20:04:38.261 [main] DEBUG utils.LoggerUtils - verifyIdentityPageIsLoaded()
+20:04:38.827 [main] DEBUG utils.LoggerUtils - [TEST] Click on the identity name and verify that identity page is opened. Delete identity PII. Verify that identity is deleted from the list
+20:04:38.827 [main] DEBUG utils.LoggerUtils - getResultCount()
+20:04:38.850 [main] DEBUG utils.LoggerUtils - clickOnIdentityByIndex(0)
+20:04:39.854 [main] DEBUG utils.LoggerUtils - verifyIdentityCardPageIsLoaded()
+20:04:42.388 [main] DEBUG utils.LoggerUtils - deleteIdentity()
+20:04:42.388 [main] DEBUG utils.LoggerUtils - clickMenuButton()
+20:04:43.064 [main] DEBUG utils.LoggerUtils - clickDeleteIdentityPIIDataButton()
+20:04:44.166 [main] DEBUG utils.LoggerUtils - confirmDeleteIdentityPIIData()
+20:04:44.166 [main] DEBUG utils.LoggerUtils - isDeleteIdentityPopUpPresent()
+20:04:44.876 [main] DEBUG utils.LoggerUtils - getToastMessage()
+20:04:48.503 [main] DEBUG utils.LoggerUtils - waitForToastMessageToBeInvisable()
+20:05:26.746 [main] DEBUG utils.LoggerUtils - verifyIdentityPageIsLoaded()
+20:05:27.339 [main] DEBUG utils.LoggerUtils - [TEST] Sign out and quit the driver
+20:05:27.339 [main] DEBUG utils.LoggerUtils - logOut()
+20:05:27.339 [main] DEBUG utils.LoggerUtils - clickSupportNavButton()
+20:05:28.150 [main] DEBUG utils.LoggerUtils - clickLogoutButton()
+20:05:28.733 [main] DEBUG utils.LoggerUtils - quitDriver()
+]]></system-out>
+    <system-err><![CDATA[Apr 12, 2025 8:03:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+Apr 12, 2025 8:04:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+]]></system-err>
+  </testcase>
+  <testcase name="testSessions" classname="tests.SessionsTest" time="45.78"/>
+  <testcase name="testFlows" classname="tests.FlowsTest" time="69.135"/>
+</testsuite>

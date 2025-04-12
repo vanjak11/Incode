@@ -1,0 +1,4 @@
+tests/FlowsTest.class
+tests/SessionsTest.class
+tests/BaseTest.class
+tests/IdentitiesTest.class
