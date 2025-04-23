@@ -18,7 +18,7 @@ public class SessionsTest extends BaseTest {
   /*
   Test case tests.Sessions
   1. Login to Incode Dashboard
-  2. Navigate to tests.Sessions page
+  2. Navigate to Sessions page
   3. Observe the name of the session and click on it
   4. In the session info page, verify that name from previous step is the same as te full name - FULL NAME (OCR)
   *
@@ -40,7 +40,7 @@ public class SessionsTest extends BaseTest {
       DashboardPage dashboardPage = loginPage.loginToDashboard(sUserName, sPassword);
       dashboardPage.waitUntilPageIsLoaded();
 
-      log.debug("[TEST] Navigate to tests.Sessions page and get name of the session from the session id");
+      log.debug("[TEST] Navigate to Sessions page and get name of the session from the session id");
       SessionsPage sessionsPage = dashboardPage.clickOnSessions();
       String sSessionName = sessionsPage.getSessionName(sSessionId);
 

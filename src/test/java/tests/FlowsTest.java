@@ -17,12 +17,12 @@ public class FlowsTest extends BaseTest {
   private WebDriver driver;
 
   /*
-Test case tests.Sessions
+Test case Sessions
 1. Login to Incode Dashboard
-2. Navigate to tests.Flows page and click on create new
+2. Navigate to Flows page and click on create new button
 3. Add  flow name and click on 'Continue' button
-4. In Select Modules page select modules and click on 'Save' button
-4. Verify flow is present in the flow list
+4. In Select Modules page select given modules and click on 'Save' button
+5. Verify flow is present in the flow list
 *
 * */
   @Test(groups = {Groups.REGRESSION, Groups.FLOWS})
@@ -43,7 +43,7 @@ Test case tests.Sessions
       DashboardPage dashboardPage = loginPage.loginToDashboard(sUserName, sPassword);
       dashboardPage.waitUntilPageIsLoaded();
 
-      log.debug("[TEST] Navigate to tests.Flows page and click on create new");
+      log.debug("[TEST] Navigate to Flows page and click on 'Create new' button");
       FlowsPage flowsPage = dashboardPage.clickOnFlows();
       flowsPage.waitUntilPageIsLoaded();
 

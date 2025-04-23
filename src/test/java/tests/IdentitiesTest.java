@@ -19,9 +19,9 @@ public class IdentitiesTest extends BaseTest {
   /*
 Test case tests.Sessions
 1. Login to Incode Dashboard
-2. Navigate to tests.Sessions page and open Session Info page for given name
+2. Navigate to Sessions page and open Session Info page for given name
 3. Add identity to database by clicking on button 'Add Face to Database'
-4. Navigate to verify Identity is present there
+4. Navigate to Identities page and verify Identity is present there
 5. Delete identity form DB
 *
 * */
@@ -42,14 +42,14 @@ Test case tests.Sessions
       DashboardPage dashboardPage = loginPage.loginToDashboard(sUserName, sPassword);
       dashboardPage.waitUntilPageIsLoaded();
 
-      log.debug("[TEST] Navigate to tests.Sessions page and click on session with name " + sSessionName);
+      log.debug("[TEST] Navigate to Sessions page and click on session with name " + sSessionName);
       SessionsPage sessionsPage = dashboardPage.clickOnSessions();
 
       log.debug("[TEST] Click on the session name and navigate to Session Info page");
       SessionInfoPage sessionInfoPage = sessionsPage.clickOnSession(sSessionName);
       sessionInfoPage.verifyPageIsLoaded();
 
-      log.debug("[TEST] Click on button 'Add Face' and verify that identity is added to 'tests.Identities' page");
+      log.debug("[TEST] Click on button 'Add Face' to add identity to DB and navigate to Identities page");
       sessionInfoPage.clickAddFaceToDatabaseButton();
 //      These two lines are failing because of intermittent issue - error toast message is shown even if identity is added
 //      String sToastMessage = sessionInfoPage.getToastMessage();
@@ -57,7 +57,7 @@ Test case tests.Sessions
       IdentitiesPage identitiesPage = sessionInfoPage.clickOnIdentities();
       identitiesPage.waitForToastMessageToBeInvisable();
 
-      log.debug("[TEST] Verify that identity is added to 'Identities' page");
+      log.debug("[TEST] Verify that identity is added to Identities page");
       identitiesPage.verifyPageIsLoaded();
       int iIdentitiesCount = identitiesPage.getResultCount();
       assert iIdentitiesCount > 0 : "No identities found in the list";
@@ -69,6 +69,7 @@ Test case tests.Sessions
     }
     finally {
       quitDriver(driver);
+      // delete identity from DB
       deleteIdentity();
     }
   }
